@@ -63,11 +63,6 @@ namespace UC_1_CalculateDistanceBetweenTwoPointsOfLine
     }
 }
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace UC_1_CalculateDistanceBetweenTwoPointsOfLine
 {
     class UC_2_IfTwoLengthsEqual
     {
