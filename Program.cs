@@ -52,24 +52,22 @@ namespace UC_1_CalculateDistanceBetweenTwoPointsOfLine
             s2 = Math.Round(distance(x1, y1, x2, y2) * 100000.0) / 100000.0;
             f2 = Convert.ToString(s2);
 
-            UC_2_IfTwoLengthsEqual b = new UC_2_IfTwoLengthsEqual();
-            b.equalOrNot( f1, f2);
+            equalOrNot( f1, f2);
         }
         static double distance(int x1, int y1, int x2, int y2)
         {
             // Calculating distance
             return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) * 1.0);
         }
-    }
-}
-
-{
-    class UC_2_IfTwoLengthsEqual
-    {
+        
          public void equalOrNot( string a1 , string a2)
         {
             Console.WriteLine("The length of both line is equal : "+a1.Equals(a2));
         }
     }
 }
+
+  
+        
+   
 
